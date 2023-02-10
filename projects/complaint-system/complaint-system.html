@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M. Maaz | Portfolio | Complaint System Project</title>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="complaint-system.css">
+</head>
+
+<body>
+    <div class="container">
+        <div style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
+            <p class="back-to-home" onclick="goBack()"><span>&#8592;</span>Back to home</p>
+            <div class="icons" onclick="goSourceCode()">
+                <span>Source code</span><i class="fa fa-github"></i>
+            </div>
+        </div>
+        <div class="info">
+            <h1>Complaint System</h1>
+            <p>An app for society where people could register complaints.</p>
+        </div>
+        <div class="tech">
+            <h2>Technologies</h2>
+            <div class="stack">
+
+                <p>Frontend:</p>
+                <div class="list">
+                    <ul>
+                        <li>React Native️</li>
+                    </ul>
+                </div>
+                <br>
+                <p>Backend:</p>
+                <div class="list">
+
+                    <ul>
+                        <li>Express JS</li>
+                        <li>TypeScript</li>
+                        <li>Prisma</li>
+                        <li>SQLite</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="screens">
+            <h2>Screens</h2>
+            <div class="screens-container">
+                <div class="project-one-container">
+                    <img src="img/Login.png" />
+                </div>
+
+                <div class="project-one-container">
+                    <img src="img/Register.png" />
+                </div>
+                <div class="project-one-container">
+                    <img src="img/Home.png" />
+                </div>
+                <div class="project-one-container">
+                    <img src="img/Create.png" />
+                </div>
+                <div class="project-one-container">
+                    <img src="img/Finish.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function goBack() {
+            document.location.href = "../../index.html#projects"
+        }
+        function goSourceCode() {
+            window.open("https://github.com/maazshakeel/complaint-software", "_blank")
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/styles.css">
+  <title>M. Maaz | Portfolio</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <a href="#home" class="nav-logo">Muhammad Maaz</a>
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="#home" id="home-id" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#about" id="about-id" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#projects" id="projects-id" class="nav-link">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a href="#hireMe" id="hireMe-id" class="nav-link">Hire me</a>
+        </li>
+        <li class="nav-item">
+          <a href="#blog" id="blog-id" class="nav-link">Blog</a>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span class="barr"></span>
+        <span class="barr"></span>
+        <span class="barr"></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME | SECTION -->
+    <section id="home" class="home">
+      <div class="home-container">
+        <div class="intro-container">
+          <h1 class="header-text">Who I am?</h1>
+          <p class="statement-text">
+            15 years old, passionate self-taught full stack developer, based in
+            Indonesia with 3 and half years of experience in Programming.
+            <br>
+            <br>
+            Can help you with developing backend, frontend mobile, or both fullstack!
+            <br>
+            <br>
+          <form method="get" action="cv/cv.pdf">
+            <button id="downloadCV">Download CV!</button>
+          </form>
+          </p>
+        </div>
+        <div class="profile-container">
+          <img src="./img/profile.png" class="profile-image" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About | SECTION -->
+    <section id="about" class="about">
+      <div class="about-container">
+        <h1 class="about-heading">Full Stack Developer</h1>
+        <h2 class="about-skills">Skills & Expertise</h2>
+        <div class="skill-section-container">
+
+          <div class="section-skill">
+
+            <!-- skill -->
+            <div class="skill">
+              <div class="skill-info">
+                <h3>ReactJS</h3>
+                <h3>62%</h3>
+              </div>
+              <div class="bar-container">
+                <div class="bar-percentage" id="reactJS"></div>
+                <div class="bar"></div>
+              </div>
+            </div>
+
+            <!-- skill -->
+            <div class="skill">
+              <div class="skill-info">
+                <h3>React Native</h3>
+                <h3>70%</h3>
+              </div>
+              <div class="bar-container">
+                <div class="bar-percentage" id="reactNative"></div>
+                <div class="bar"></div>
+              </div>
+            </div>
+
+            <!-- skill -->
+            <div class="skill">
+              <div class="skill-info">
+                <h3>Tailwind CSS</h3>
+                <h3>65%</h3>
+              </div>
+              <div class="bar-container">
+                <div class="bar-percentage" id="tailwindCSS"></div>
+                <div class="bar"></div>
+              </div>
+            </div>
+
+            <!-- skill -->
+            <div class="skill">
+              <div class="skill-info">
+                <h3>HTML / CSS</h3>
+                <h3>79%</h3>
+              </div>
+              <div class="bar-container">
+                <div class="bar-percentage" id="htmlCss"></div>
+                <div class="bar"></div>
+              </div>
+            </div>
+          </div>
+          <div class="section-skill">
+
+            <!-- skill -->
+            <div class="skill">
+              <div class="skill-info">
+                <h3>ExpressJS</h3>
+                <h3>80%</h3>
+              </div>
+              <div class="bar-container">
+                <div class="bar-percentage" id="expressJS"></div>
+                <div class="bar"></div>
+              </div>
+            </div>
+
+            <!-- skill -->
+            <div class="skill">
+              <div class="skill-info">
+                <h3>MySQL / SQLite</h3>
+                <h3>75%</h3>
+              </div>
+              <div class="bar-container">
+                <div class="bar-percentage" id="mysqlsqlite"></div>
+                <div class="bar"></div>
+              </div>
+            </div>
+
+            <!-- skill -->
+            <div class="skill">
+              <div class="skill-info">
+                <h3>TypeScript</h3>
+                <h3>65%</h3>
+              </div>
+              <div class="bar-container">
+                <div class="bar-percentage" id="typeScript"></div>
+                <div class="bar"></div>
+              </div>
+            </div>
+
+            <!-- skill -->
+            <div class="skill">
+              <div class="skill-info">
+                <h3>API Development</h3>
+                <h3>75%</h3>
+              </div>
+              <div class="bar-container">
+                <div class="bar-percentage" id="apiDev"></div>
+                <div class="bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects | SECTION -->
+    <section id="projects" class="projects">
+      <h1 class="projects-heading">Recent Projects</h1>
+      <div class="projects-showcase">
+        <div class="project-one-container">
+          <div id="rapidVocab" class="project-one"><img src="img/rapidvocab_proto.png" />
+          </div>
+          <h2>Rapid Vocabulary Learning</h2>
+        </div>
+        <!-- <div class="project-one" style="margin-left: 2em;"><img src="img/complaintsystem_proto.png" id="complaint" />
+        </div>
+          <h2>Rapid Vocabulary Learning</h2> -->
+        <div class="project-one-container" style="margin-left: 2em;">
+          <div class="project-one"><img src="img/complaintsystem_proto.png" id="complaint" /></div>
+          <h2>Complaint System</h2>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Hire Me | SECTION -->
+    <section id="hireMe" class="hireMe">
+      <div class="hireMeHeading">
+        <h1>Hire me</h1>
+        <h2>as <span class="auto-type"></span></h2>
+      </div>
+      <form>
+        <input type="text" name="client-name" id="name" placeholder="Name">
+        <input type="email" name="client-email" id="email" placeholder="Email">
+        <textarea name="description" rows="4" cols="50" id="description" placeholder="Description">
+</textarea>
+        <button type="submit" id="submit">Email me</button>
+      </form>
+    </section>
+
+  </main>
+
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="js/index.js"></script>
+  <script>
+    let typed = new Typed('.auto-type', {
+      strings: ['backend developer', 'frontend mobile developer', 'fullstack developer'],
+      typeSpeed: 100,
+      backSpeed: 100,
+      loop: true
+    })
+  </script>
+</body>
+
+</html>
