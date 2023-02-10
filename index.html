@@ -198,8 +198,8 @@
         <h1>Hire me</h1>
         <h2>as <span class="auto-type"></span></h2>
       </div>
-      <form action="mailto:maaz.shakeel.bodla@gmail.com" method="post">
-        <input type="text" name="name" id="name" placeholder="Name">
+        <form onsubmit="handleSubmit()">
+        <input type="text" name="name" id="name" autofocus placeholder="Name">
         <input type="email" name="mail" id="email" placeholder="Email">
         <textarea name="comment" rows="4" cols="50" id="description" placeholder="Description">
 </textarea>
@@ -219,6 +219,10 @@
       backSpeed: 100,
       loop: true
     })
+    function handleSubmit() {
+      window.open("mailto:maaz.shakeel.bodla@gmail.com")
+      // location.href = 
+    }
   </script>
 </body>
 
