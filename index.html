@@ -198,10 +198,10 @@
         <h1>Hire me</h1>
         <h2>as <span class="auto-type"></span></h2>
       </div>
-      <form>
-        <input type="text" name="client-name" id="name" placeholder="Name">
-        <input type="email" name="client-email" id="email" placeholder="Email">
-        <textarea name="description" rows="4" cols="50" id="description" placeholder="Description">
+      <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+        <input type="text" name="name" id="name" placeholder="Name">
+        <input type="email" name="mail" id="email" placeholder="Email">
+        <textarea name="comment" rows="4" cols="50" id="description" placeholder="Description">
 </textarea>
         <button type="submit" id="submit">Email me</button>
       </form>
